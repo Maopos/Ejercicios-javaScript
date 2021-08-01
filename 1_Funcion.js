@@ -1,11 +1,7 @@
+function sumar(a, b) {
+  var suma = a + b;
 
-
-function sumar(a,b){
-
-      var suma = a + b;
-
-      return suma;
-
+  return suma;
 }
 
 console.log(sumar(2, 3));
