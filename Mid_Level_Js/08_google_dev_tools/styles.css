@@ -1,0 +1,38 @@
+h1:hover {
+    background-color: #b8acfc;
+    
+}
+
+h1 {
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #0c164e;
+    text-align: center;
+    
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    align-content: auto;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #0c164e;
+    text-align: center;
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}

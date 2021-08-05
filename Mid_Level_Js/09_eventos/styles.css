@@ -1,0 +1,20 @@
+h1 {
+    padding: 20px;
+    padding: 20px;
+
+    font-family: roboto, helvetica, arial, sans-serif;
+    font-size: 25px;
+    color: #000000;
+    background-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    white-space: normal;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    color: #000000;
+    
+}
