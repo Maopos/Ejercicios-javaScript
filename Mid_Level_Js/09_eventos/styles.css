@@ -1,8 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
 h1 {
     padding: 20px;
     padding: 20px;
 
-    font-family: roboto, helvetica, arial, sans-serif;
     font-size: 25px;
     color: #000000;
     background-color: transparent;
@@ -13,8 +19,38 @@ h1 {
 }
 
 button {
-    padding: 10px;
-    font-size: 20px;
+    padding: 8px;
+    font-size: 16px;
     color: #000000;
     
+    
 }
+
+.container_01{
+    padding: 15px;
+    background: #dddddd;
+    width: 160px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container_02{
+    padding: 20px;
+    background: #a0a0a0;
+    margin: 10px;
+}
+
+.container_03{
+    padding: 10px 20px 20px 20px;
+    background: #dddddd;
+    width: 90%;
+    margin: 20px auto;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 6px;
+    margin-top: 10px;
+}
+
