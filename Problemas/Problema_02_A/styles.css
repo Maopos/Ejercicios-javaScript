@@ -1,0 +1,58 @@
+:root {
+    --fondo : rgb(216, 216, 216);
+    --padding: 20px;
+}
+
+* {
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    background: var(--fondo);
+    padding: var(--padding);
+}
+
+
+input {
+    display: block;
+    width: 70%;
+    padding: 5px;
+    margin: 18px 10%;
+    box-sizing: border-box;
+
+}
+
+#btn-enviar {
+    width: 50%;
+    border: 1px solid rgb(133, 133, 133);
+    background: rgb(255, 255, 255);
+    margin-top: 40px;
+    padding: 10px;
+}
+
+#btn-enviar:hover {
+    background: rgb(240, 240, 240);
+}
+
+form {
+    background: var(--fondo);
+    padding: var(--padding);
+    margin: auto;
+}
+
+.resultado {
+    background: var(--fondo);
+    padding: var(--padding);
+    margin: 20px auto;
+}
+
+.green {
+    color: rgb(13, 133, 13);
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}

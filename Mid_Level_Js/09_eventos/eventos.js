@@ -93,6 +93,26 @@ input2.addEventListener('select', (e)=>{
   let start = e.target.selectionStart;
   let end = e.target.selectionEnd;
   let texto_completo = input2.value;
-  contenedor.value = texto_completo.substring(start, end);
-  
+  contenedor.value = texto_completo.substring(start, end); 
 });
+
+// -------------------- Timers -----------------------
+
+setTimeout(()=>{console.log('Se ejecuta en 7 segundos')}, 7000);
+
+
+function saludo(){
+  console.log('Hola en 8 segundos');
+}
+
+const temporizador = setTimeout(saludo, 8000);
+
+clearTimeout(temporizador); // cancel timer
+
+const intervalo = setInterval(()=>{console.log('Se ejecuta cada segundo')}, 1000);
+
+setTimeout(()=>{
+  clearInterval(intervalo); // cancel interval
+  console.log('Se cancela el intervalo..');
+  
+}, 6000);
