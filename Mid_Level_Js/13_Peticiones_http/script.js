@@ -10,8 +10,5 @@ deserializado = JSON.parse(serializado);
 console.log(deserializado);
 
 
-// AJAX - Asynchronous JavaScript And XML 
-// (JavaScript asíncrono y XML)
-// técnica de desarrollo web para crear aplicaciones interactivas o RIA 
-// (Rich Internet Applications).
+
 
