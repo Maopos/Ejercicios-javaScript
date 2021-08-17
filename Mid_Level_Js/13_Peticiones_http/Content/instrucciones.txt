@@ -1,0 +1,2 @@
+Estos archivos se deben visualizar en el localhost, 
+utilizando XAMPP hay que inculir esta carpeta dentro del directorio htdocs.
